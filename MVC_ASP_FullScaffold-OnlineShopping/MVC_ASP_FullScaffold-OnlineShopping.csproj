@@ -135,34 +135,34 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\DomainModel\DTO\EF\Category.cs">
+    <Compile Include="Models\DomainModels\DTO\EF\Category.cs">
       <DependentUpon>OnlineShopping.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\DomainModel\DTO\EF\OnlineShopping.Context.cs">
+    <Compile Include="Models\DomainModels\DTO\EF\OnlineShopping.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>OnlineShopping.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\DomainModel\DTO\EF\OnlineShopping.cs">
+    <Compile Include="Models\DomainModels\DTO\EF\OnlineShopping.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>OnlineShopping.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\DomainModel\DTO\EF\OnlineShopping.Designer.cs">
+    <Compile Include="Models\DomainModels\DTO\EF\OnlineShopping.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>OnlineShopping.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Models\DomainModel\DTO\EF\Person.cs">
+    <Compile Include="Models\DomainModels\DTO\EF\Person.cs">
       <DependentUpon>OnlineShopping.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\DomainModel\DTO\EF\Product.cs">
+    <Compile Include="Models\DomainModels\DTO\EF\Product.cs">
       <DependentUpon>OnlineShopping.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\DomainModel\DTO\EF\USP_Category_List_Result.cs">
+    <Compile Include="Models\DomainModels\DTO\EF\USP_Category_List_Result.cs">
       <DependentUpon>OnlineShopping.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\DomainModel\DTO\EF\USP_Product_List_Result.cs">
+    <Compile Include="Models\DomainModels\DTO\EF\USP_Product_List_Result.cs">
       <DependentUpon>OnlineShopping.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -176,23 +176,23 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Models\DomainModel\DTO\EF\OnlineShopping.Context.tt">
+    <Content Include="Models\DomainModels\DTO\EF\OnlineShopping.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>OnlineShopping.Context.cs</LastGenOutput>
       <DependentUpon>OnlineShopping.edmx</DependentUpon>
+      <LastGenOutput>OnlineShopping.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\DomainModel\DTO\EF\OnlineShopping.tt">
+    <Content Include="Models\DomainModels\DTO\EF\OnlineShopping.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>OnlineShopping.edmx</DependentUpon>
       <LastGenOutput>OnlineShopping.cs</LastGenOutput>
     </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <EntityDeploy Include="Models\DomainModel\DTO\EF\OnlineShopping.edmx">
+    <EntityDeploy Include="Models\DomainModels\DTO\EF\OnlineShopping.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>OnlineShopping.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="Models\DomainModel\DTO\EF\OnlineShopping.edmx.diagram">
+    <Content Include="Models\DomainModels\DTO\EF\OnlineShopping.edmx.diagram">
       <DependentUpon>OnlineShopping.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
@@ -238,8 +238,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\DomainModel\DTO\MetaData\" />
-    <Folder Include="Models\DomainModel\POCO\" />
+    <Folder Include="Models\DomainModels\DTO\MetaData\" />
+    <Folder Include="Models\DomainModels\POCO\" />
+    <Folder Include="Models\ViewModels\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'D:\Aghajanian\Projects\MVC_Architecture\MVC-S02\MVC_Projects-S02\Class\MVC_ASP_FullScaffold-OnlineShopping\MVC_ASP_FullScaffold-OnlineShopping\Models\DomainModel\DTO\EF\OnlineShopping.edmx'. 
+﻿// T4 code generation is enabled for model 'D:\Aghajanian\Projects\MVC_Architecture\MVC-S02\MVC_Projects-S02\Class\MVC_ASP_FullScaffold-OnlineShopping\MVC_ASP_FullScaffold-OnlineShopping\Models\DomainModels\DTO\EF\OnlineShopping.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

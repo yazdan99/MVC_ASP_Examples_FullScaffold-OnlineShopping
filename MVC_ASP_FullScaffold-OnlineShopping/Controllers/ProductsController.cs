@@ -6,7 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
-using MVC_ASP_FullScaffold_OnlineShopping.Models.DomainModel.DTO.EF;
+using MVC_ASP_FullScaffold_OnlineShopping.Models.DomainModels.DTO.EF;
 
 namespace MVC_ASP_FullScaffold_OnlineShopping.Controllers
 {

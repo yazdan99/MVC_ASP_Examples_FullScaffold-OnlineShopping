@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MVC_ASP_FullScaffold_OnlineShopping.Models.DomainModel.DTO.EF
+namespace MVC_ASP_FullScaffold_OnlineShopping.Models.DomainModels.DTO.EF
 {
     using System;
     using System.Collections.Generic;
